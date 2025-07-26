@@ -11,6 +11,6 @@ else
   exit 1
 fi
 
-cp -Rf $(pwd) /opt/ANDRAX/qcsuper
+ln -s /opt/ANDRAX/pipx/venvs/qcsuper/bin/qcsuper /opt/ANDRAX/bin/qcsuper
 
 chown -R andrax:andrax /opt/ANDRAX/
